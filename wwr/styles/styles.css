@@ -1,0 +1,98 @@
+:root {
+  --primary: #3F4A21;
+  --secondary: #D1D5DE;
+  --accent1: #495F83;
+  --accent-color2: #5A6E8E;
+}
+
+html {
+  max-width: 1000px;
+}
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--accent1);
+  background-color: var(--secondary);
+  opacity: .9;
+  
+}
+
+body {
+  background-color: var(--primary);
+  max-width: 1000px;
+}
+
+header {
+  background-color: var(--secondary);
+}
+
+footer {
+  background-color: var(--secondary);
+}
+
+footer p {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 200;
+  color: var(--accent1);
+}
+p { 
+  font-family: 'Roboto' sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.hero div {
+  margin: 10px auto;
+  position: relative;
+  padding: 1rem;
+}
+
+.hero h1 {
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 950px;
+  margin: 1rem;
+  position: absolute;
+  left: 10;
+}
+
+.hero p {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 200;
+  color: var(--accent1);
+}
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.hero article {
+  width: 700px;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  color: black;
+  text-align: left;
+  position: absolute;
+  bottom: 400px;
+  left: 100px;
+  background-color: var(--secondary);
+  opacity: .9;
+}
+
+.hero article img {
+  width:100px;
+  height: auto;
+  float: right;
+}
+
+.history {
+  text-align: center;
+}
+
+.adventure {
+  text-align: center;
+}
+
