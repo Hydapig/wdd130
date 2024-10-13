@@ -8,6 +8,7 @@
 html {
   max-width: 1000px;
 }
+
 h1, h2, h3, h4, h5, h6 { 
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -24,10 +25,40 @@ body {
 
 header {
   background-color: var(--secondary);
+  display: grid;
+  margin: 1rem auto;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+nav {
+  justify-content: space-evenly;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
 }
 
 footer {
   background-color: var(--secondary);
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem auto;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 footer p {
@@ -35,6 +66,24 @@ footer p {
   font-weight: 200;
   color: var(--accent1);
 }
+
+.sociallinks {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+
+.sociallinks a {
+  display: block;
+  padding: 20px;
+}
+
+.sociallinks img {
+  margin: 0 0.25rem 0 1rem;
+	width: 32px;
+	height: auto;
+}
+
 p { 
   font-family: 'Roboto' sans-serif;
   font-weight: 200;
@@ -90,9 +139,33 @@ p {
 
 .history {
   text-align: center;
+  color: var(--secondary);
+}
+
+.history img {
+  width: 80%;
+  height: auto;
+}
+
+.history div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .adventure {
   text-align: center;
+  color: var(--secondary);
 }
 
+.images {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  justify-content: space-evenly;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
