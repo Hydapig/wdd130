@@ -65,7 +65,7 @@ footer {
 }
 
 footer p {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: var(--accent1);
 }
@@ -88,7 +88,7 @@ footer p {
 }
 
 p { 
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: white;
 }
@@ -105,11 +105,11 @@ p {
   width: 950px;
   margin: 1rem;
   position: absolute;
-  left: 10;
+  left: 10px;
 }
 
 .hero p {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: var(--accent1);
 }
@@ -211,7 +211,7 @@ fieldset {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.25rem;
-  margin: rem;
+  margin: 1rem;
   border: none;
   padding: 1rem;
   justify-content: space-evenly;
@@ -221,7 +221,7 @@ legend {
   font-size: 15pt;
   padding: 0.5rem;
   color: var(--accent1);
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15pt;
   font-weight: 700;
 }
