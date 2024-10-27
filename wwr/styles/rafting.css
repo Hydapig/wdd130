@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background-color: var(--primary);
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
@@ -140,6 +141,20 @@ p {
   float: right;
 }
 
+.hero section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  align-items: center;
+  background-color: var(--secondary);
+  width: 900px;
+  bottom: 150px;
+  left: 60px;
+  opacity: .8;
+  color: var(--accent1);
+  font-weight: 800;
+}
+
 .history {
   text-align: center;
   color: var(--secondary);
@@ -178,8 +193,6 @@ p {
   width: 200px;
   height: 100%;
 }
-
-
 
 .contact {
   display: flex;
@@ -262,4 +275,104 @@ button {
 
 button:hover {
   background-color: var(--accent1);
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 35% 40%;
+  grid-row-gap: 2rem;
+  background-color: var(--secondary);
+}
+
+div.welcome {
+  grid-column: span 2;
+  background-image: url('../images/salmon-kayak3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+div.welcome h1 {
+  background-color: inherit;
+  color: var(--secondary);
+  font-size: 30pt;
+}
+
+div.welcome p {
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+div.offerings1 {
+  grid-row: 2;
+  grid-column: 1;
+  padding: 2rem;
+  text-align: left;
+}
+
+div.offerings1 img {
+  width: 300px;
+  height: auto;
+  margin-left: 70px;
+}
+
+div.offerings1 p {
+  color: var(--accent1);
+}
+
+div.offerings2 {
+  grid-row: 2;
+  grid-column: 2;
+  padding: 2rem;
+}
+
+div.offerings2 img {
+  width: auto;
+  height: 191px;
+  margin-left: 85px;
+}
+
+div.offerings2 p {
+  color: var(--accent1);
+}
+
+div.subscribe-form {
+  grid-row: 3;
+  grid-column: 1 /2;
+  margin: 1px auto;
+  padding: 1px;
+}
+
+div.subscribe-form form {
+  border: 5px solid var(--accent1);
+  margin-left: 300px;
+  height: 350px;
+  padding: 1px;
+  width: 400px;
+}
+
+div.subscribe-form p {
+  color: var(--accent1);
+  font-size: 12pt;
+  font-weight: 400;
+  text-align: center;
+}
+
+div.subscribe-form label {
+  text-align: left;
+  margin-left: 100px;
+
+}
+
+div.subscribe-form input {
+  width: 200px;
+  margin-left: 100px;
+}
+
+div.subscribe-form button {
+  margin-left: 100px;
 }
