@@ -376,3 +376,109 @@ div.subscribe-form input {
 div.subscribe-form button {
   margin-left: 100px;
 }
+
+div.trips {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5% 45% 50%;
+  
+  background-color: var(--secondary);
+  width: 1000px;
+}
+
+div.trips h1 {
+  text-align: center;
+  grid-row-start: 1;
+  grid-column: span 2;
+}
+
+div.destinations {
+  grid-row: 2;
+  grid-column: span 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  padding: .5rem;
+  margin: 10px;
+}
+
+div.destinations div {
+  padding: 2px;
+}
+
+div.destinations img {
+  width: 200px;
+  height: auto;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+div.destinations p {
+  color: var(--primary);
+  font-weight: 400;
+  margin: 5px auto;
+  padding: 1px;
+}
+
+div.table {
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--accent-color2);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+th, td {
+  border: 1px solid var(--accent-color2);
+  padding: 5px;
+}
+
+th {
+  background-color: var(--primary);
+  color: var(--secondary);
+
+}
+
+td {
+  color: var(--primary);
+}
+
+div.bookings {
+  grid-column: 2;
+  grid-row: 3;
+  align-items: center;
+  padding: 5px;
+}
+
+div.bookings h2 {
+  font-size: 18pt;
+}
+
+div.bookings img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 5px;
+}
+
+div.bookings p {
+  margin: auto;
+  width: 80%;
+  color: var(--primary);
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+div.bookings button {
+  margin-left: 150px;
+}
